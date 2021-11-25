@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro');
+
+/* Style for the header and nav menu */
+header{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+header h1 {
+    margin: 40px 0px 0px 0px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+header h2 {
+    margin: 5px 0px 40px 0px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+header nav {
+    display: block;
+}
+
+header nav ul {
+	list-style: none;
+    margin: 20px 0px 20px 0px;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0px 30px 0px 30px
+}
+
+header nav ul li a {
+	padding: 5px 0px 5px 0px;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #8E8E8E;
+}
+
+header hr.solid {
+    margin-top: 25px;
+    border-top: 3px solid #FFFFFF;
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* Style for the homepage */
+#home {
+    height: 930px;
+    width: 540px;
+    margin: auto;
+    color: #D672CC;
+}
+
+#home img {
+    margin-top: 75px;
+    width: 280px;
+    height: 270px;
+    border-radius: 50%;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    position: relative;
+}
+
+#home #text {
+    font-family: 'Source Code Pro';
+    margin-top: 100px;
+    text-align: left;
+}
+
+#home #text h5 {
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 75px;
+    color: #5CA400;
+}
+
+#home #text h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#home #text h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#home #text span {
+    color: #FFE99D;
+}
+
+#home #text h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 75px;
+    color: #5CA400;
+}
+
+/* Style for the projects page */
+#projects {
+    margin: auto;
+}
+
+#projects h2{
+    top: 30px;
+    font-size: 40px;
+    position: relative;
+    margin: 30px;
+}
+
+#projects img {
+    margin-top: 100px;
+    width: 500px;
+    height: 350px;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+}
+
+#projects a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #0086E8
+}
+
+#projects a:hover {
+	color: #0161A7;
+}
+
+/* Style for the about page */
+#about {
+    margin: auto;
+    width: 740px;
+}
+
+#about h5 {
+    top: 30px;
+    font-size: 40px;
+    position: relative;
+    margin: 30px;
+}
+
+#about img {
+    margin-top: 75px;
+    width: 224px;
+    height: 216px;
+    border-radius: 50%;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    position: relative;
+}
+
+#about #text {
+    font-family: 'Source Code Pro';
+    text-align: left;
+    position: relative;
+    margin-top: 80px;
+}
+
+#about #text h2{
+    color: #5CA400;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 120px;
+}
+
+#about #text a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0086E8;
+}
+
+#about #text a:hover {
+	color: #0161A7;
+}
+
+#about #text h3{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 5px;
+}
+
+#about #text p{
+    font-size: 25px;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-family: 'Source Code Pro';
+}
+
+#about #text h4{
+    font-size: 25px;
+    color: #FF7425;
+    font-family: 'Source Code Pro';
+    font-weight: 100;
+}
+
+#project {
+    margin: auto;
+    width: 960px;
+    height: 1500px;
+}
+
+/* Style for the individual project pages */
+#project h5 {
+    top: 30px;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#project .gallery1 {
+    float: left;
+}
+
+#project .gallery1 img {
+    width: 730px;
+    height: 750px;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    margin-bottom: 75px;
+}
+
+#project .gallery2 img {
+    width: 370px;
+    height: 650px;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    margin-bottom: 75px;
+}
+
+#project h2 {
+    font-family: 'Source Code Pro';
+    width: 700px;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+#project h3 {
+    font-family: 'Source Code Pro';
+    width: 700px;
+    float: right;
+    font-size: 30px;
+    text-align: right;
+    font-weight: lighter;
+}
+
+#project a {
+    text-decoration: none;
+    color: #0086E8;
+}
+
+#project a:hover {
+	color: #0161A7;
+}
+
+/* Style for the footer */
+footer {
+    margin-bottom: 30px;
+    margin-top: 80px;
+    background-color: #000000;
+}
+
+footer img {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    zoom: 0.8;
+}
+
+footer .cc {
+    margin-top: 35px;
+}
+
+footer .cc a {
+    text-decoration: none;
+    color: #0086E8;
+}
+
+footer .cc a:hover {
+    color: #0161A7;
+}
